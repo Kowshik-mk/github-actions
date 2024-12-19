@@ -1,1 +1,1 @@
-# github-actions
+this is a sample github tutorial
