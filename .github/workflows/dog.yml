@@ -3,8 +3,8 @@ on: workflow_dispatch
 jobs:
   paw-job:
     runs-on: ubuntu-latest
-    Steps:
+    steps:
       - name: first_step
-        run : |
-               echo "dog"
-               echo "cat"
+        run: |
+            echo "dog"
+            echo "cat"
