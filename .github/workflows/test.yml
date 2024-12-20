@@ -1,0 +1,12 @@
+workflow: test
+on:
+  workflow-dispatch
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+          -name: first_step
+           run: echo"first_step"
+          -name: second_step
+           run: echo"second_step"
+           
